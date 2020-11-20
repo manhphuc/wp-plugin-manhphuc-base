@@ -1,0 +1,33 @@
+{
+  "name": "wp-manhphuc-base-assets",
+  "authors": [
+    "Phuc Nguyen <manhphucofficial@yahoo.com>"
+  ],
+  "description": "Assets for ManhPhuc Base plugin",
+  "main": "bower",
+  "moduleType": [],
+  "license": "GPL-3.0",
+  "homepage": "",
+  "private": true,
+  "directory" : "assets",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css" : "latest",
+    "fancybox" : "latest",
+    "isotope" : "latest",
+    "bxslider-4" : "latest",
+    "modernizr" : "latest",
+    "detectizr" : "latest",
+    "imagesloaded" : "latest",
+    "jquery-colorbox" : "latest",
+    "slick-carousel": "latest",
+    "font-awesome": "latest",
+    "jquery.cookie": "latest"
+  }
+}
