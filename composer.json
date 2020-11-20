@@ -1,0 +1,28 @@
+{
+  "name": "manhphuc/manhphuc-base",
+  "description": "The Base plugin for Theme and Plugin development. It requires ACF pro to work.",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Phuc Nguyen",
+      "email": "manhphucofficial@yahoo.com"
+    },
+    {
+      "name": "Yivic",
+      "email": "contact@yivic.com"
+    }
+  ],
+  "require": {
+    "snscripts/html-helper": "1.*",
+    "aura/di": "3.*",
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ManhPhuc\\Wp\\ManhPhucBase\\": "src",
+      "ManhPhuc\\Wp\\ManhPhucBase\\Base\\": "src/base",
+      "ManhPhuc\\Wp\\ManhPhucBase\\Component\\": "src/component"
+    }
+  },
+  "minimum-stability": "stable"
+}
